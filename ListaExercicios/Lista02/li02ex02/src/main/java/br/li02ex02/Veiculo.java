@@ -8,7 +8,7 @@ package br.li02ex02;
 import br.li02ex02.Cliente;
 
 public class Veiculo {
-    private int contador = 0;
+    private static int contador;
     private int nSerie;
     private int nRodas;
     private String tipoCombustivel;
